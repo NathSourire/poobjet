@@ -1,0 +1,35 @@
+body{
+    background-image: url(/public/assets/img/eden.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: darkslategray;
+}
+
+.orcLife {
+    border: 1px solid;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: aquamarine;
+    opacity: 65%;
+}
+.heroLife {
+    border: 1px solid;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: aquamarine;
+    opacity: 65%;
+}
+.winner1 p{
+    border: 2px solid;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aquamarine;
+    opacity: 65%;
+}
+.winner2 p{
+    border: 2px solid;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aquamarine;
+    opacity: 65%;
+}
