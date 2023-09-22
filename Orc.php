@@ -3,7 +3,7 @@ require_once __DIR__ . '/Character.php';
 
 class Orc extends Character
 {
-    protected $damage;
+    protected int $damage;
 
     /**
      * méthode magique qui construit automatiquement la fonction
