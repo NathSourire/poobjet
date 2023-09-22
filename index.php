@@ -56,14 +56,14 @@ $orc = new Orc(500, 0);
                 <?php $hero->attacked($orc->getDamage());
                 // $newHealth = ($newHealth > 0) ? $newHealth : 0; 
                 if ($hero->getHealth() <= 0) { ?>
-                    <div class="winner2 col-4 ">
-                        <img class="position-absolute top-50 start-50" src="/public/assets/img/ogre.webp" alt="Ogre">
-                        <p class="text-center position-absolute bottom-50 end-50">L'orc a gagné </p>
+                    <div class="winner2 col-6 ">
+                        <img class="position-absolute bottom-50 end-50" src="/public/assets/img/ogre.png" alt="Ogre">
+                        <p class="text-center position-absolute top-50 start-50">L'orc a gagné </p>
                     </div>
                 <?php } elseif ($orc->getHealth() <= 0) { ?>
-                    <div class="winner1 col-4">
-                        <img class="position-absolute bottom-50 end-50" src="/public/assets/img/Warrior.webp" alt="Guerrier">
-                        <p class="text-center position-absolute top-50 start-50">Le héro a gagné </p>
+                    <div class="winner1 col-6">
+                        <img class="position-absolute top-50 start-50" src="/public/assets/img/Warrior.webp" alt="Guerrier">
+                        <p class="text-center position-absolute bottom-50 end-50">Le héro a gagné </p>
                     </div>
             <?php }
             } ?>
